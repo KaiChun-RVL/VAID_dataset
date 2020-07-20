@@ -21,7 +21,7 @@ VOC_CLASSES = (  # always index 0
                     '1','2','3','4','5','6','7')
 
 # note: if you used our download scripts, this should be right
-VOC_ROOT = osp.join(HOME, "KaiChun/RefineDet.PyTorch-master/data/VAID")
+VOC_ROOT = osp.join(HOME, "KaiChun/VAID_dataset-master/RefineDet.PyTorch-master/data/VAID")
 
 
 class VOCAnnotationTransform(object):
