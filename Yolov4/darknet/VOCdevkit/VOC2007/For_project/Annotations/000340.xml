@@ -1,0 +1,26 @@
+<annotation>
+	<folder>DJI_0019</folder>
+	<filename>000340.jpg</filename>
+	<path>C:\Users\ChihYi\Downloads\image\190321\DJI_0019\000340.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1137</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>1</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>423</xmin>
+			<ymin>362</ymin>
+			<xmax>464</xmax>
+			<ymax>383</ymax>
+		</bndbox>
+	</object>
+</annotation>
