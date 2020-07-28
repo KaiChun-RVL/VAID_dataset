@@ -25,6 +25,7 @@ environment : tensorflow1.4 cuda9.2
 2. Put for_download/faster rcnn/data and for_download/faster rcnn/output into VAID_dataset/tf-faster-rcnn
 3. Download dataset and put Annotations amd JPEGImages into VAID_dataset/tf-faster-rcnn/data/VOCdevkit2007/VOC2007
 4. make at VAID_dataset/tf-faster-rcnn/lib and VAID_dataset/tf-faster-rcnn/data/coco/PythonAPI
+
 command :<br>
 demo<br>
 GPU_ID=0<br>
