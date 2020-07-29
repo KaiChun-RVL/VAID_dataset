@@ -55,7 +55,13 @@ test <br>
 ./darknet detector test cfg/voc.data cfg/yolo-obj.cfg backup/yolo-obj_best.weights
 If you want to know more command , you can see the official yolo github.
 #### Mobilenetv3
+environment : pytorch 1.4.0 cuda9.2
+Download dataset and put the fold Annotations amd JPEGImages into VAID_dataset-master/MobileNetV3-SSD-Compact-Version/VAID
+run create_data_lists.py
 
+command <br>
+python train.py<br>
+python eval.py
 #### RefineDet
 environment : cuda9.2 , pytorch 1.4.0
 1. modify home path in VAID_dataset-master/RefineDet.PyTorch-master/data/config.py
