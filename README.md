@@ -76,10 +76,8 @@ train <br>
 calculate map <br>
 ./eval_refinedet.sh 
 
-
-
-
-
-
-
-
+The code if from the following website.
+Faster R-CN : https://github.com/endernewton/tf-faster-rcnn
+Yolov4 : https://github.com/AlexeyAB/darknet
+Mobilenet : https://github.com/shaoshengsong/MobileNetV3-SSD-Compact-Version
+RefineDet : https://github.com/luuuyi/RefineDet.PyTorch
