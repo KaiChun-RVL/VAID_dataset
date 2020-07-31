@@ -78,7 +78,7 @@ calculate map <br>
 
 ### Source
 The code if from the following website. <br>
-Faster R-CN : https://github.com/endernewton/tf-faster-rcnn <br>
+Faster R-CNN : https://github.com/endernewton/tf-faster-rcnn <br>
 Yolov4 : https://github.com/AlexeyAB/darknet<br>
 Mobilenet : https://github.com/shaoshengsong/MobileNetV3-SSD-Compact-Version <br>
 RefineDet : https://github.com/luuuyi/RefineDet.PyTorch <br>
