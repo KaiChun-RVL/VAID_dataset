@@ -75,7 +75,27 @@ train <br>
 ./train_refinedet320.sh <br>
 calculate map <br>
 ./eval_refinedet.sh 
+#### U-Net
+environment : cuda 10.0 , Keras 2.2.4
 
+1.Download the file https://drive.google.com/drive/folders/1S35gyY4c2B6HGzgB8WRl_scDYWdukhTb?usp=sharing
+2.Put for_download/U-Net/data and for_download/U-Net/model into VAID_dataset/U-Net/ ; put for_download/U-Net/results into VAID_dataset/U-Net/MAP/ ; put for_download/U-Net/detection-results into VAID_dataset/U-Net/MAP/car/ 
+
+3.Train(unet+_residual_vgg16.py)
+(1)modify 'path' to VAID_dataset/U-Net/data/train_val(seperate)/
+(2)modify the model name you want to save in 'model_checkpoint'
+
+4.Test(test.py)
+(1)modify 'test_path' to VAID_dataset/U-Net/data/test/test_jpg/
+(2)modify 'label_save_dir' to VAID_dataset/U-Net/data/predict/predict_label/
+(3)modify 'visualize_save_dir' to VAID_dataset/U-Net/data/predict/predict_visualize/
+(4)modify 'modelFile' to model file(model_name.hdf5) in 'model' folder
+
+5.IOU(evaluate_iou.py)
+(1)modify 'test_label_path' to VAID_dataset/U-Net/data/test/test_label/
+(2)modify 'predict_path' to VAID_dataset/U-Net/data/predict/predict_label/
+
+6.mAP(main_map.py)
 ### Source
 The code are from the following website. <br>
 Faster R-CNN : https://github.com/endernewton/tf-faster-rcnn <br>
