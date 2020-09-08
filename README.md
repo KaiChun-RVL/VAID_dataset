@@ -15,7 +15,6 @@ You can download VAID dataset in this website.https://vision.ee.ccu.edu.tw/aeria
 
 We test VAID dataset on 5 common model including Faster R-CNN, Yolov4, MobileNetv3 , RefineDet and U-Net.
 
-### Perfromance
 
 ### How to use 
  
