@@ -48,10 +48,10 @@ environment : cuda10.0 , cudnn>7.0 , opencv>2.4
 command:<br>
 train <br>
 ./darknet detector train cfg/voc.data cfg/yolo-obj.cfg yolov4.conv.137
-calculate map <br>
-./darknet detector map cfg/voc.data cfg/yolo-obj.cfg backup/yolo-obj_best.weights 
+calculate<br> map <br>
+./darknet detector map cfg/voc.data cfg/yolo-obj.cfg backup/yolo-obj_best.weights <br>
 test <br>
-./darknet detector test cfg/voc.data cfg/yolo-obj.cfg backup/yolo-obj_best.weights
+./darknet detector test cfg/voc.data cfg/yolo-obj.cfg backup/yolo-obj_best.weights<br>
 If you want to know more command , you can see the official yolo github.
 #### Mobilenetv3
 environment : pytorch 1.4.0 cuda9.2
